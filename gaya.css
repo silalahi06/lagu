@@ -1,0 +1,130 @@
+html {
+	font-family: 'Courgette', cursive;
+	user-select: none;
+	
+}
+body {
+	background-image: linear-gradient(red, black);
+}
+#top-bar {
+	height: 70px;
+}
+
+.mySlides {display:none;
+	z-index: -1;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:17px;width:17px;padding:0}
+.album{
+	margin-top: 80px;
+	text-shadow: 5px 2px 10px #000000;
+	font-family: 'Courgette', cursive;
+}
+h2, h3, h4, p, button, span, div {
+	font-family: 'Courgette', cursive;
+	font-weight: bold;
+	color: white;
+}
+.w3-bar{
+	background-image: linear-gradient(red, black);
+}
+.w3bar{
+	background-image: linear-gradient(red, black);
+}
+
+
+#biru:focus{
+	outline: none;
+}
+#hijau:focus{
+	outline: none;
+}
+#hitam:focus{
+	outline: none;
+}
+#grey:focus{
+	outline: none;
+}
+#ungu:focus{
+	outline: none;
+}
+#biru{
+	background-image: linear-gradient(blue, black);
+}
+#hijau{
+	background-image: linear-gradient(green, black);
+}
+#hitam{
+	background-image: linear-gradient(grey, black);
+}
+#grey{
+	background-image: linear-gradient(white, grey);
+}
+#ungu{
+	background-image: linear-gradient(purple, black);
+}
+#biru:hover{
+	background-image: linear-gradient(black, black);
+}
+#hijau:hover{
+	background-image: linear-gradient(black, black);
+}
+#hitam:hover{
+	background-image: linear-gradient(black, black);
+}
+#grey:hover{
+	background-image: linear-gradient(black, black);
+}
+#ungu:hover{
+	background-image: linear-gradient(black, black);
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 8px;
+	right: 5px;
+	z-index: 99;
+	font-size: 18px;
+	outline: none;
+	background-image: linear-gradient(red, black);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+#myBtnBg{
+
+	position: fixed;
+	top: 80px;
+	left: 0;
+	z-index: 99;
+
+	outline: none;
+	background-image: linear-gradient(grey, white);
+
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 10px;
+}
+#myBtnBg:focus{
+	outline: none;
+}
+#myBtn:hover {
+	background-image: linear-gradient(black, black);
+}
+html {
+	scroll-behavior: smooth;
+}
+#tags{
+	margin-top: 90px;
+}
+
+div.scrollhorizontal {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+
+
+
+	
