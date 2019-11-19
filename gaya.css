@@ -6,6 +6,9 @@ html {
 body {
 	background-image: linear-gradient(red, black);
 }
+#top-bar {
+	height: 70px;
+}
 
 .mySlides {display:none;
 	z-index: -1;
